@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+      <title> 방탈출 게임의 제목 작성 </title>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="./style.css">
+      <script type="text/javascript" src="./script.js"></script> 
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  </head>
+
+    <body>
+
+      <br>
+      <div class problem_box style="border:white; border-width:3px; border-style:solid;">
+         <h1 style="color:white">  　　　방의 이름　　　  </h1>
+      </div>
+
+
+      <div class="story">
+
+         <br>
+         <pre style="font-size: 20px;">
+         
+         기존에 정해진 story 태그 이외에
+         다르게 지정하고 싶을 때 pre 태그를 써서
+         폰트를 다르게 설정
+         보통 나레이션으로 3인칭 설정
+
+         </pre>
+         <br>
+
+         <h4> 내용1 </h4>
+
+         <img src = "../image/page1-1.png" width="170" height="150">
+         <h4 style="color:skyblue;"> 대화체 필요시 작성 </h4>
+         <h4> 내용2 </h4>
+
+
+         <br>
+         <pre style="font-size: 20px;">
+
+         기존에 정해진 story 태그 이외에
+         다르게 지정하고 싶을 때 pre 태그를 써서
+         폰트를 다르게 설정
+         보통 나레이션으로 3인칭 설정
+
+         </pre>
+         <br>
+
+         <h4 style="color:skyblue;"> 대화체 필요시 작성 </h4>
+
+         <br>
+         <pre style="font-size: 20px;">
+            
+         기존에 정해진 story 태그 이외에
+         다르게 지정하고 싶을 때 pre 태그를 써서
+         폰트를 다르게 설정
+         보통 나레이션으로 3인칭 설정
+
+         </pre>
+         <br>
+
+
+         <img src = "../image/page1-2.png" width="90%">
+         <h4> 내용3 </h4>
+
+         <h4 style="color:skyblue;"> 대화체 필요시 작성 </h4>
+
+         <h4> 내용4 </h4>
+
+         <h4 style="color:skyblue;"> 대화체 필요시 작성 </h4>
+
+         <br>
+
+      </div>
+
+      <div class="problem">
+         
+         <h4> 문제 작성하는 라인 </h4>
+         <h5> 필요 시 힌트 작성하는 라인 </h5>
+         <h5> 필요 시 정답 유형 작성하는 라인 </h5>
+
+      </div>
+
+
+      <div class="container">
+
+        <div class="form">
+          <div class="form__group field" onclick="ans_init()">
+            <!-- ☆★☆★☆★ to2() 부분을 수정하여 연결할 함수 설정 ★☆★☆★☆ -->
+            <input type="text" class="form__field" placeholder=" " id='input' onkeydown="to2()">
+            <label for="answer" class="form__label">정답</label>
+            <span class="error" id="errorname"></span>
+          </div>
+        </div>
+
+        <!-- ☆★☆★☆★ to2() 부분을 수정하여 연결할 함수 설정 ★☆★☆★☆ -->
+        <div class="check" id="check" onclick="to2()">
+           <div class="btn">
+              <div class="shop-now">확인</div>
+              <div class="snowflake-grid to-left">
+                 <div class="snowflake-item border-bottom border-right">
+                    <div class="sub-items border-right border-bottom pull-down">
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+                 <div class="snowflake-item border-bottom border-left">
+                    <div
+                       class="sub-items border-right border-bottom r-90 pull-down-right"
+                       >
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+                 <div class="snowflake-item border-top border-right">
+                    <div class="sub-items border-right border-bottom r-270 pull-right">
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+                 <div class="snowflake-item border-top border-left">
+                    <div class="sub-items border-right border-bottom r-180 pull-left">
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+              </div>
+              <div class="snowflake-grid to-right">
+                 <div class="snowflake-item border-bottom border-right">
+                    <div class="sub-items border-right border-bottom pull-down">
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+                 <div class="snowflake-item border-bottom border-left">
+                    <div
+                       class="sub-items border-right border-bottom r-90 pull-down-right"
+                       >
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+                 <div class="snowflake-item border-top border-right">
+                    <div class="sub-items border-right border-bottom r-270 pull-right">
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+                 <div class="snowflake-item border-top border-left">
+                    <div class="sub-items border-right border-bottom r-180 pull-left">
+                       <div class="m-w-15 m-h-15 border-right border-bottom m-3"></div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+      </div>
+
+
+      <div class="notice">
+         <br>
+         <br>
+         <hr>
+
+         <h3> ㅡ 게임 안내 ㅡ </h3>
+
+         <div style="line-height:20%;"> <!-- 하위 줄높이를 50%만큼 적게 설정 -->
+            <br>
+         </div>
+
+         <pre style="font-size: 20px;">
+본 게임은 AI교육과 관련된 내용으로 구성된 미궁 게임입니다.
+
+문제는 이야기를 기반으로 출제되지만, 이야기는 문제 해결과는 관련이 없습니다.
+
+문제를 풀고 정답을 입력한 후 확인을 누르면 다음 방으로 이동할 수 있습니다.
+</pre>
+
+         <hr>
+         <br>
+         <br>
+      </div>
+
+
+
+  </body>
+
+</html>
+
+
